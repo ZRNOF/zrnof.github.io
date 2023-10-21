@@ -3,6 +3,7 @@ import { createNoise4D } from "simplex-noise"
 import P5Sketch from "../../Components/P5Sketch"
 
 const Welcome = () => {
+	let cnv
 	const sketch = (p: p5) => {
 		const simplexNoiseSeed = p.random()
 		const noise4D = createNoise4D(() => simplexNoiseSeed)
@@ -15,8 +16,9 @@ const Welcome = () => {
 		const isShowCircle = true
 
 		p.setup = () => {
-			p.createCanvas(p.windowWidth, p.windowHeight)
-			p.pixelDensity(2)
+			cnv = p.createCanvas(600, 600)
+			cnv.removeAttribute("style")
+			cnv.addClass("p5-canvas")
 			p.stroke(255)
 			p.noFill()
 		}
