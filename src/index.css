@@ -5,9 +5,12 @@ body,
 	padding: 0;
 	width: 100%;
 	height: 100%;
+	user-select: none;
+	touch-action: none;
 }
 
-body {
+body,
+#root {
 	background-color: black;
 	display: flex;
 	justify-content: center;
