@@ -18,7 +18,7 @@ const Welcome = (p: p5) => {
 	const speed = 0.01
 	const radius = 180
 	const amount = 200
-	const weiRange = 120
+	const weiRange = 100
 	const circleSize = 10
 	const isCurve = true
 	const isShowCircle = true
