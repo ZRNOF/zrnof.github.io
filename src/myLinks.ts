@@ -15,6 +15,10 @@ const myLinks = [
 		name: "Instagram",
 		link: "https://www.instagram.com/zrnof/",
 	},
+	{
+		name: "fx(hash)",
+		link: "https://www.fxhash.xyz/u/ZRNOF",
+	},
 ]
 
 export default myLinks
