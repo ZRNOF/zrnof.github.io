@@ -8,16 +8,16 @@ const myLinks = [
 		link: "https://github.com/ZRNOF",
 	},
 	{
-		name: "Twitter",
+		name: "X",
 		link: "https://twitter.com/_ZRNOF_",
 	},
 	{
 		name: "Instagram",
-		link: "https://www.instagram.com/zrnof/",
+		link: "https://www.instagram.com/zaron.art/",
 	},
 	{
 		name: "fx(hash)",
-		link: "https://www.fxhash.xyz/u/ZRNOF",
+		link: "https://www.fxhash.xyz/u/zaron",
 	},
 ]
 
